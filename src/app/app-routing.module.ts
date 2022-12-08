@@ -5,7 +5,7 @@ import { ListBooksComponent } from './list-books/list-books.component';
 
 const routes: Routes = [
   { path : '', component : ListBooksComponent},
-
+  { path : 'books', component : ListBooksComponent},
   { path : '**', component : ErrorComponent}
 ];
 
